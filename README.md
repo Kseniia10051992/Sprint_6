@@ -4,4 +4,4 @@
 Java 11, JUnit4, Maven, Jacoco
 
 Как запускать:
-mvn clean test
+"mvn clean test"
