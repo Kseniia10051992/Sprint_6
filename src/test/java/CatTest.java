@@ -10,14 +10,15 @@ import org.mockito.junit.MockitoJUnitRunner;
 @RunWith(MockitoJUnitRunner.class)
 public class CatTest  {
     private Cat cat;
+    private static final String SOUND= "Мяу";
     @Mock
-    Feline feline;
+    private Feline feline;
 
     @Test
     public void getSoundTest() {
         cat = new Cat( feline );
         String actual = cat.getSound();
-        Assert.assertEquals( "Мяу", actual);
+        Assert.assertEquals( SOUND, actual);
     }
 
     @Test
