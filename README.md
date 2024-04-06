@@ -1,2 +1,8 @@
-# qa_java
-QA Java Project
+Финальный проект 6 спринта
+
+Технологии проекта:
+Java 11, JUnit 4.13.2, Maven 3.8.1, Jacoco 0.8.10;
+
+Как запускать:
+
+mvn clean test
